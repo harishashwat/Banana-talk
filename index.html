@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana talk</title>
 </head>
+<style>
+    textarea{
+        display: block;
+        margin: 5px;
+    }
+    #output{
+        border: 2px solid black;
+        height: 140px;
+        width: 670px;
+        margin: 5px;
+    }
+</style>
 <body>
     <h1>English to Banana language generator</h1>
     <p>This generator will convert the english language to banana laguage that is originated from Minions</p>
     <textarea name="" id="text-input" cols="90" rows="10" placeholder="Enter the text here...."></textarea>
     <button id="submit">Generate</button>
+    <br>
+    <br>
+    <div><strong>Your language is now converting... </strong></div>
+    <div id="output">
+        
+    </div>
     <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
